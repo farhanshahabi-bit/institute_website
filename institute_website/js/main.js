@@ -1,0 +1,1 @@
+const modal=document.getElementById('verify-modal');const btn=document.getElementById('verify-link');const span=document.getElementsByClassName('close')[0];btn.onclick=()=>{modal.style.display='flex';};span.onclick=()=>{modal.style.display='none';};window.onclick=e=>{if(e.target==modal)modal.style.display='none';};

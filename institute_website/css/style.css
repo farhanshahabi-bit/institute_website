@@ -1,0 +1,24 @@
+body {font-family:'Poppins',sans-serif;margin:0;background:#0f111a;color:#fff;}
+header{display:flex;justify-content:space-between;align-items:center;padding:15px 30px;background:#11141f;position:sticky;top:0;}
+header img{height:50px;}
+nav a{color:#fff;text-decoration:none;margin:0 10px;font-weight:600;padding:6px 10px;border-radius:6px;transition:0.3s;}
+nav a:hover,nav a.active{background:#00e0ff;color:#0a0a0a;}
+.hero{background:#222;height:400px;display:flex;justify-content:center;align-items:center;text-align:center;}
+.hero-text h1{font-size:40px;color:#00e0ff;}
+.hero-text p{color:#ccc;margin-top:10px;}
+.hero-text .btn{padding:12px 20px;background:#00e0ff;color:#0a0a0a;border-radius:8px;text-decoration:none;font-weight:600;}
+section{padding:40px 20px;max-width:900px;margin:auto;text-align:center;}
+.course-cards{display:flex;gap:20px;flex-wrap:wrap;justify-content:center;margin-top:20px;}
+.course-card{background:#1a1c27;padding:20px;border-radius:12px;width:200px;text-align:center;box-shadow:0 0 15px rgba(0,224,255,0.2);}
+.modal{display:none;position:fixed;z-index:200;left:0;top:0;width:100%;height:100%;background:rgba(0,0,0,0.8);justify-content:center;align-items:center;}
+.modal-content{background:#1a1c27;padding:25px;border-radius:12px;max-width:500px;width:90%;position:relative;}
+.close{position:absolute;top:10px;right:15px;font-size:28px;cursor:pointer;}
+.search-container{display:flex;justify-content:center;gap:10px;margin-top:20px;}
+input{padding:12px;border-radius:8px;border:1px solid #444;background:#0f111a;color:#fff;outline:none;width:60%;}
+button{padding:12px;border-radius:8px;border:none;background:#00e0ff;color:#0a0a0a;font-weight:600;cursor:pointer;}
+.result{margin-top:20px;background:#11141f;padding:15px;border-radius:10px;display:none;text-align:left;}
+.status{padding:3px 8px;border-radius:6px;display:inline-block;}
+.verified{background:#28a745;color:#fff;}
+.pending{background:#ffc107;color:#000;}
+.not-found{background:#dc3545;color:#fff;}
+footer{text-align:center;margin-top:40px;padding:20px 0;background:#11141f;}
